@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms</title>
+	<style>
+		input{
+			width: 400px;
+			height: 40px;
+			border-radius: 2px;
+			outline: 1px solid gray;
+			box-shadow: 1px 1px 10px rgba(148, 148, 148);
+			margin: 1rem;
+			font-size: 20px;
+		}
+		::placeholder{
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<form action="anotherFile.html" method="post">
+		<label for="Email">Enter your email</label>
+		<input type="email" autofocus placeholder="Enter Your Email" required>
+		<input type="email" placeholder="Enter Your Email" required multiple>
+		<br>
+		<label for="search">Item to search</label>
+		<input type="search" name="" id="" placeholder="search...">
+		<br>
+		<label for="search">Enter your site url</label>
+		<input type="url" id="" placeholder="url search">
+		<br>
+		<label for="search">Enter your number</label>
+		<input type="number" >
+		<br>
+		<label for="search"> Range</label>
+		<input type="range" id="" placeholder="url search">
+		<br>
+		<input type="date">
+		<input type="time">
+		<input type="week">
+		<input type="datetime">
+		<input type="datetime-local">
+		<input type="color">
+		<input type="file">
+		<input type="file" multiple>
+		<input type="submit" value="Click">
+
+	</form>
+</body>
+</html>
